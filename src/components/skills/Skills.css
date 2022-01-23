@@ -1,0 +1,29 @@
+.skills {
+  height: 35vh;
+}
+
+.skills h1 {
+  text-align: center;
+  padding-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+.skills .skills-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.skills .skills-list img {
+  width: 100%;
+  max-width: 100px;
+  max-height: 100px;
+  min-height: 100px;
+}
+
+.skills .skills-list span {
+  display: block;
+  text-align: center;
+}

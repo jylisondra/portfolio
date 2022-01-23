@@ -1,3 +1,11 @@
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(11, 23, 34, 0.719);
+}
+
 .navbar .nav-content {
   display: flex;
   align-items: center;

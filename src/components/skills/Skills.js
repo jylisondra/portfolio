@@ -1,5 +1,5 @@
 import './Skills.css';
 
 export default function Skills() {
-  return <div>Skills</div>;
+  return <div className="skills">Skills</div>;
 }

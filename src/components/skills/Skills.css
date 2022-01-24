@@ -1,19 +1,33 @@
 .skills {
-  height: 35vh;
+  width: 100%;
+  height: 100vh;
+  background-color: #99b1c7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills h1 {
   text-align: center;
   padding-top: 1em;
   margin-bottom: 1.5em;
+  color: rgb(243, 243, 243);
 }
 
 .skills .skills-list {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   justify-content: space-between;
-  width: 1600px;
+  width: 1400px;
   margin: 0 auto;
+}
+
+.skills .skills-list .skill {
+  text-align: center;
+  flex: 0 0 21%;
+  margin: 1em;
 }
 
 .skills .skills-list img {

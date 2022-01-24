@@ -11,7 +11,7 @@ import reduxLogo from '../../assets/redux-logo.png';
 
 export default function Skills() {
   return (
-    <div className="skills">
+    <div className="skills" id="skills-section">
       <h1>My skillset includes</h1>
       <ul className="skills-list">
         <li className="skill">

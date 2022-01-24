@@ -41,3 +41,23 @@
   display: block;
   text-align: center;
 }
+
+.custom-shape-divider-bottom-1642993123 {
+  position: absolute;
+  top: calc(200vh - 200px);
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1642993123 svg {
+  position: relative;
+  display: block;
+  width: calc(167% + 1.3px);
+  height: 165px;
+}
+
+.custom-shape-divider-bottom-1642993123 .shape-fill {
+  fill: rgb(11, 23, 34);
+}

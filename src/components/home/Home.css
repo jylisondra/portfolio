@@ -1,8 +1,12 @@
 .home {
   max-width: 1400px;
-  margin: 40px auto;
-  margin-top: 10em;
   text-align: center;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .home h1 {
@@ -34,7 +38,7 @@
   background: linear-gradient(
     120deg,
     rgba(45, 200, 194, 1) 15%,
-    rgba(127, 13, 238, 1) 100%
+    rgb(47, 13, 196) 100%
   );
   margin-right: 1em;
   transition: 150ms ease;
@@ -46,7 +50,7 @@
   background: linear-gradient(
     120deg,
     rgba(45, 200, 194, 1) 15%,
-    rgba(127, 13, 238, 1) 100%
+    rgb(47, 13, 196) 100%
   );
   cursor: pointer;
   color: rgb(24, 30, 36);
@@ -61,7 +65,7 @@
 
 .home .btn-resume:hover {
   background-color: rgb(235, 238, 245);
-  color: rgb(30, 39, 48);
+  color: rgb(93, 95, 97);
   cursor: pointer;
   transition: 200ms ease-in-out;
 }
